@@ -1,0 +1,16 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Marcianos;
+
+/**
+ *
+ * @author jagarcia1980
+ */
+public interface disparar {
+
+    int dispara();
+    
+}
