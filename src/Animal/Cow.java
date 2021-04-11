@@ -22,7 +22,7 @@ public class Cow implements Animal{
 	{
 		if (rounds > 0)
 		{
-			position += 3;
+			position += 2;
 		}
 		if (rounds == 3)
 		{
