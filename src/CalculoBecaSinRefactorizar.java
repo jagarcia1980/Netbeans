@@ -5,8 +5,8 @@ public class CalculoBecaSinRefactorizar {
 	public static Scanner teclado = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		double d;
-		char fN;
+		double d = 0;
+		char fN = 0;
 		char fL;
 		double b;
 		double a=0;
