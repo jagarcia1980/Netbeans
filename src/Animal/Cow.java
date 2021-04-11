@@ -1,23 +1,13 @@
 
-
-
-
-
-
-
-
-
-
-
 package Animal;
 
-public class Hare implements Animal{
+public class Cow implements Animal{
 
 	private String name;
 	private int position = 0;
 	private int rounds = 1;
 	
-	public Hare(String name)
+	public Cow(String name)
 	{
 		this.name = name;
 	}
