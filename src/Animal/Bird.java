@@ -2,7 +2,7 @@ package Animal;
 
 import java.util.Random;
 
-public class Bird implements Animal, pajaro{
+public class Bird implements Animal {
 
 	private int position = 0;
 	private String name;
@@ -17,14 +17,14 @@ public class Bird implements Animal, pajaro{
 		return name;
 	}
 	
-    @Override
+        @Override
 	public void advance()
 	{
 		Random rand = new Random();
 	    position += rand.nextInt(5);
 	}
 	
-    @Override
+        @Override
 	public int getPosition()
 	{
 		return position;
