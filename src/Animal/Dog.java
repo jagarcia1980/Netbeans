@@ -1,6 +1,6 @@
 package Animal;
 
-public class Dog implements Comparable {
+public class Dog implements Animal {
 
 	private int position = 0;
 	
@@ -18,10 +18,5 @@ public class Dog implements Comparable {
 	{
 		return position;
 	}
-
-    @Override
-    public int compareTo(Object o) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 	
 }
