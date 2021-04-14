@@ -1,6 +1,6 @@
 public class Beca {
     static int beca_mínima=0;
-    static int smi=750;
+    static int smi=780;
     static double renta_mínima=1500;
     static double renta_máxima=2400;
     
@@ -15,7 +15,7 @@ public class Beca {
 				beca = 3*smi;
 			} else {
 				if (rentaFamiliar < ((renta_mínima+renta_máxima)/2)) {
-					beca = 2*smi;
+					beca = 3*smi;
 				} else {
 					if (rentaFamiliar < renta_máxima) {
 						beca = smi;
