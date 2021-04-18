@@ -1,6 +1,6 @@
 public class Beca {
     static int beca_mínima=0;
-    static int smi=750;
+    static int smi=800;
     static double renta_mínima=1500;
     static double renta_máxima=2400;
     
